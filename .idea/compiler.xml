@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="heima-leadernews-article" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="freemarker-demo" target="1.8" />
+      <module name="heima-file-starter" target="1.8" />
+      <module name="heima-leadernews-article" target="1.8" />
+      <module name="heima-leadnews" target="1.8" />
+      <module name="heima-leadnews-apis" target="1.8" />
+      <module name="heima-leadnews-app-gateway" target="1.8" />
+      <module name="heima-leadnews-article" target="1.8" />
+      <module name="heima-leadnews-basic" target="1.8" />
+      <module name="heima-leadnews-common" target="1.8" />
+      <module name="heima-leadnews-feign-api" target="1.8" />
+      <module name="heima-leadnews-gateway" target="1.8" />
+      <module name="heima-leadnews-model" target="1.8" />
+      <module name="heima-leadnews-service" target="1.8" />
+      <module name="heima-leadnews-test" target="1.8" />
+      <module name="heima-leadnews-user" target="1.8" />
+      <module name="heima-leadnews-utils" target="1.8" />
+      <module name="minio-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="freemarker-demo" options="" />
+      <module name="heima-file-starter" options="" />
+      <module name="heima-leadernews-article" options="-parameters" />
+      <module name="heima-leadnews" options="" />
+      <module name="heima-leadnews-apis" options="-parameters" />
+      <module name="heima-leadnews-app-gateway" options="" />
+      <module name="heima-leadnews-article" options="" />
+      <module name="heima-leadnews-basic" options="" />
+      <module name="heima-leadnews-common" options="" />
+      <module name="heima-leadnews-feign-api" options="" />
+      <module name="heima-leadnews-gateway" options="" />
+      <module name="heima-leadnews-model" options="" />
+      <module name="heima-leadnews-service" options="" />
+      <module name="heima-leadnews-test" options="" />
+      <module name="heima-leadnews-user" options="" />
+      <module name="heima-leadnews-utils" options="" />
+      <module name="minio-demo" options="" />
+    </option>
+  </component>
+</project>
